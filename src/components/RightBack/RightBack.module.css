@@ -1,0 +1,75 @@
+.pokeInfoctn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+    width: 90%;
+    background-color: #b0b0b0;
+    border: 1px solid black;
+    border-radius: 10px 0 0 10px;
+  }
+
+  .errorCtn img {
+    max-width: 70%;
+    max-height: 70%;
+  }
+  
+  .errorCtn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pokeInfo {
+    height: 95%;
+    width: 95%;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px 0 0 10px;
+    overflow-y:scroll;
+  }
+  
+  .name {
+    display: flex;
+    justify-content: center;
+    font-size: 70%
+  }
+
+  .infoCont{
+    display: flex;
+  }
+  
+  .pokeInfoctn p{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 0.8rem;
+  }
+
+  .pokeInfoctn p span {
+    font-weight: bold;
+  }
+
+  .infoCont img{
+    display: flex;
+    height: 100%;
+    justify-self: center;
+    align-self: center;
+  }
+
+  .variName {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .variName h1 {
+    font-size: 1.5rem;
+  }
+
+  .RightBack p{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 0.8rem;
+  }
